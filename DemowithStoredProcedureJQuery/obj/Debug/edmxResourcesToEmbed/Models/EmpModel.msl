@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EmpModelStoreContainer" CdmEntityContainer="DevDBEntities">
+    <EntitySetMapping Name="Table_1">
+      <EntityTypeMapping TypeName="EmpModel.Table_1">
+        <MappingFragment StoreEntitySet="Table_1">
+          <ScalarProperty Name="EmployeeNumber" ColumnName="EmployeeNumber" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Sex" ColumnName="Sex" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="createsp" FunctionName="EmpModel.Store.createsp" />
+    <FunctionImportMapping FunctionImportName="deletesp" FunctionName="EmpModel.Store.deletesp" />
+    <FunctionImportMapping FunctionImportName="updatesp" FunctionName="EmpModel.Store.updatesp" />
+    <FunctionImportMapping FunctionImportName="insert_Fn" FunctionName="EmpModel.Store.createsp" />
+  </EntityContainerMapping>
+</Mapping>

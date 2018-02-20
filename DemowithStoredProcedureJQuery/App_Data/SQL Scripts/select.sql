@@ -1,0 +1,7 @@
+USE DevDB;
+GO
+CREATE PROCEDURE selectsp
+
+AS
+SELECT * FROM Table_1
+GO
